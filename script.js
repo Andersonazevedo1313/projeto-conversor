@@ -1,12 +1,14 @@
-function converter(){
+function converter() {
+    let real = parseFloat(document.getElementById("ValorReal").value);
+    let dolar = parseFloat(document.getElementById("ValorDolar").value);
 
-    let real = Numbergt(document.getElementById("ValorReal").value);
-    let dolar = Number(document.getElementById("ValorDolar").value);
+    if (isNaN(real) || isNaN(dolar) || dolar === 0) {
+        document.getElementById("resultado").innerText = "Digite valores válidos!";
+        return;
+    }
 
     let resultado = real / dolar;
 
     document.getElementById("resultado").innerText =
-    "você tem $" + resultado.toFixed(2); 
-
-
+        "💵 Valor em dólar: $" + resultado.toFixed(2);
 }
