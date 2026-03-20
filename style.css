@@ -3,6 +3,7 @@ body{
 }
 
 img{
+    
     width: 400px;
     display: block;
     margin-left: auto;
@@ -23,7 +24,7 @@ h1{
 
     text-align: center;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 300px;
 }
 
 input{
