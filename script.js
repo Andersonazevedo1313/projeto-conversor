@@ -6,7 +6,7 @@ function converter(){
     let resultado = real / dolar;
 
     document.getElementById("resultado").innerText =
-    "você tem $" + resultado.toFixed(2);
+    "você tem $" + resultado.toFixed(2); 
 
 
 }
