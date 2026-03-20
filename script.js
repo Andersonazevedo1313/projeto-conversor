@@ -1,7 +1,7 @@
 function converter(){
 
-    let real = Number (document.getElementById("ValorReal").value);
-    let dolar = Number (document.getElementById("ValorDolar").value);
+    let real = Numbergt(document.getElementById("ValorReal").value);
+    let dolar = Number(document.getElementById("ValorDolar").value);
 
     let resultado = real / dolar;
 
